@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PagPedia</title>
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body>
+    <main>
+      <div class="inner-box">
+        <div class="forms-wrap">
+          <form action="index.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="static/img/logo.png" alt="PagPedia" />
+              </div>
+              <div class="heading">
+                <h2>Bem vindo</h2>
+                <h6>Nao tem uma conta?</h6>
+                <a href="#" class="toggle">Cadastra-se</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Senha</label>
+                </div>
+
+                <input type="submit" value="Login" class="sign-btn" />
+
+                <p class="text">
+                  Esqueceu sua senha?
+                  <a href="#">Ajuda</a> fazendo login
+                </p>
+              </div>
+          </form>
+
+          <form action="index.html" autocomplete="off" class="sign-up-form">
+            <div class="logo">
+              <img src="static/img/logo.png" alt="PagPedia" />
+            </div>
+            <div class="heading">
+              <h2>Registrar</h2>
+              <h6>Ja possui login?</h6>
+              <a href="#" class="toggle">Login</a>
+            </div>
+            <div class="actual-form">
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  minlength="4"
+                  class="input-field"
+                  autocomplete="off"
+                  required
+                />
+                <label>Nome</label>
+              </div>
+              <div class="input-wrap">
+                <input
+                  type="email"
+                  class="input-field"
+                  autocomplete="off"
+                  required
+                />
+                <label>Email</label>
+              </div>
+              <div class="input-wrap">
+                <input
+                  type="password"
+                  minlength="4"
+                  class="input-field"
+                  autocomplete="off"
+                  required
+                />
+                <label>Senha</label>
+              </div>
+              <input type="submit" value="Registrar" class="sign-btn" />
+              <p class="text">
+                Fazendo login, eu concordo com 
+                <a href="https://policies.google.com/terms" target="_blank" rel="noreferer" id="privacy">Termos de Servico</a> e
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noreferer" id="privacy">Politica de Privacidade</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="carousel">
+          <div class="images-wrapper">
+            <img src="static/img/logo.png" class="image img-1 show" alt="" />
+            <img src="static/img/avatar.png" class="image img-2" alt="" />
+            <img src="static/img/bg.png" class="image img-3" alt="" />
+          </div>
+
+          <div class="text-slider">
+            <div class="text-wrap">
+              <div class="text-group">
+              </div>
+            </div>
+          </div>  
+
+            <div class="bullets">
+              <span class="active" data-value="1"></span>
+              <span data-value="2"></span>
+              <span data-value="3"></span>
+            </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="static/java/app.js"></script>
+  </body>
+</html>
