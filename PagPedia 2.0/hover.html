@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil</title>
+    <link rel="stylesheet" href="static/css/hover.css" />
+  </head>
+  <body>
+    <div class="card_profile">
+      <div class="card">
+        <div class="imgBx">
+          <img src="{{user.img.url}}"> 
+        </div>
+        <div class="content">
+          <div class="details">
+            <a href="{% url 'pagseguro:profile' user.user_name %}">{{user.user_name}}</a>
+              <span>DESCRICAO</span>
+            <div class="data">
+              <h3><span>NOME DO TIME</span></h3>
+            </div>
+            <div class="actionBtn">
+              <button>Contato</button>
+              <button>Editar Perfil</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </body>
+</html>
